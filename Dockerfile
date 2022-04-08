@@ -1,3 +1,3 @@
 FROM docker.io/fedora:latest
 RUN dnf install -y sysstat
-RUN dnf install -y openssh-server
+RUN dnf install -y openssh
